@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivkrupa Mandap & Decor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- WELCOME ENQUIRY POPUP -->
+
+<div class="popup-overlay" id="enquiryPopup">
+
+    <div class="popup-box">
+
+        <button type="button" class="close-btn" id="closePopup"
+            aria-label="Close enquiry form">&times;</button>
+
+        <img src="images/logo.photo.jpeg" alt="Shivkrupa Logo" class="popup-logo">
+
+        <h2>Welcome to Shivkrupa!</h2>
+        <h3>Mandap & Decor</h3>
+
+        <p>
+            Planning a special celebration?
+            Tell us about your event. We would love to help!
+        </p>
+
+        <form id="welcomeForm">
+
+            <input type="text" id="visitorName"
+                placeholder="Full Name" required>
+
+            <input type="tel" id="visitorMobile"
+                placeholder="Mobile Number"
+                pattern="[0-9]{10}" maxlength="10" required>
+
+            <select id="visitorFunction" required>
+                <option value="">Select Function</option>
+                <option>Wedding</option>
+                <option>Birthday</option>
+                <option>Engagement</option>
+                <option>Haldi</option>
+                <option>Mehendi</option>
+                <option>Other Functions</option>
+            </select>
+
+            <input type="date" id="visitorDate" required>
+
+            <input type="text" id="visitorLocation"
+                placeholder="Event Location" required>
+
+            <button type="submit">Submit Enquiry</button>
+
+        </form>
+
+        <a href="#" id="continueLink">Continue to Website</a>
+
+    </div>
+
+</div>
+
+
+<!-- HEADER -->
+
+<header>
+
+    <div class="logo">
+        <img src="images/logo.photo.jpeg" alt="Shivkrupa Logo">
+
+        <div class="logo-text">
+            <h1>Shivkrupa</h1>
+            <p>MANDAP & DECOR</p>
+        </div>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation" aria-expanded="false">
+        ☰
+    </button>
+
+    <nav id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+        <a href="#booking" class="book-btn">Book Now</a>
+    </nav>
+
+</header>
+
+
+<!-- HERO SECTION -->
+
+
+<section class="hero" id="home">
+    <div class="hero-content">
+
+        <h3>Welcome to</h3>
+        <h1>Shivkrupa</h1>
+        <h2>Mandap & Decoration</h2>
+
+        <p>
+            Making Your Special Moments More Beautiful!
+            We provide beautiful decoration and mandap
+            arrangements for every celebration.
+        </p>
+
+        <a href="#services" class="main-btn">
+            Explore Services
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FUNCTION CATEGORIES -->
+
+<section class="categories">
+
+    <h2>Celebrate Every Occasion</h2>
+
+    <p class="section-desc">
+        We make every celebration special and memorable.
+    </p>
+
+    <div class="category-container">
+
+        <div class="category">
+            <img src="images/saptpadimadap.png" alt="Wedding decoration">
+            <h3>Wedding</h3>
+        </div>
+
+        <div class="category">
+            <img src="images/b'day clebrate.webp" alt="Birthday decoration">
+            <h3>Birthday</h3>
+        </div>
+
+        <div class="category">
+            <img src="images/engegmentceremony.jpg" alt="Engagement decoration">
+            <h3>Engagement</h3>
+        </div>
+
+        <div class="category">
+            <img src="images/haldidecore.jpg" alt="Haldi decoration">
+            <h3>Haldi</h3>
+        </div>
+
+        <div class="category">
+            <img src="images/mehandi.jpg" alt="Mehendi decoration">
+            <h3>Mehendi</h3>
+        </div>
+
+        <div class="category">
+            <img src="images/0ther mpre fuction.jpg"Other function decoration">
+            <h3>Other Functions</h3>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section class="services" id="services">
+
+    <h2>Our Services</h2>
+
+    <p class="section-desc">
+        Everything you need to make your event beautiful.
+    </p>
+
+    <div class="service-container">
+
+        <div class="service-card">
+            <img src="images/weddingphoto.service.jpg" alt="Wedding mandap">
+            <h3>Wedding Mandap</h3>
+            <p>Beautiful mandap arrangements for your special wedding day.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/b,day.services.jpg" alt="Birthday decoration">
+            <h3>Birthday Decoration</h3>
+            <p>Colourful and creative decorations for birthday celebrations.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/engegmentservice.jpg" alt="Engagement decoration">
+            <h3>Engagement Setup</h3>
+            <p>Elegant decoration for your engagement ceremony.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/haldiphoto.service.jpg" alt="Haldi decoration">
+            <h3>Haldi Decoration</h3>
+            <p>Beautiful yellow-themed arrangements for Haldi functions.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/mehandiphoto.srvice.jpg" alt="Mehendi decoration">
+            <h3>Mehendi Decoration</h3>
+            <p>Traditional and colourful Mehendi decoration setups.</p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/djgalleryphotos7.jpeg" alt="Other event decoration">
+            <h3>Other Functions</h3>
+            <p>Custom decoration arrangements for all special occasions.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- GALLERY -->
+
+<section class="gallery" id="gallery">
+
+    <h2>Our Decoration Gallery</h2>
+
+    <p class="section-desc">
+        Explore beautiful decoration ideas for your special events.
+    </p>
+
+    <div class="gallery-container">
+
+        <img src="images/galleryphotos4.jpeg" alt="Wedding decoration gallery">
+        <img src="images/galleryphotos5.jpeg" alt="Birthday decoration gallery">
+        <img src="images/galleryphotos6.jpeg" alt="Engagement decoration gallery">
+        <img src="images/mandap gallery.jpeg" alt="Haldi decoration gallery">
+        <img src="images/engegment service.jpg.jpeg" alt="Mehendi decoration gallery">
+        <img src="images/gallery.photos.jpg.jpeg" alt="Other event decoration gallery">
+
+    </div>
+
+</section>
+
+
+<!-- WHY CHOOSE US -->
+
+<section class="why-us">
+
+    <h2>Why Choose Shivkrupa?</h2>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <h3>Beautiful Designs</h3>
+            <p>Creative and attractive decoration arrangements.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>Affordable Pricing</h3>
+            <p>Decoration options for different budgets.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>Quality Service</h3>
+            <p>We focus on quality and customer satisfaction.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>Every Occasion</h3>
+            <p>One place for all your celebration needs.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MAIN BOOKING FORM -->
+
+<section class="booking" id="booking">
+
+    <h2>Book Your Decoration</h2>
+
+    <p class="section-desc">
+        Share your event details and send us a booking enquiry.
+    </p>
+
+    <form id="bookingForm">
+
+        <label for="customerName">Full Name</label>
+        <input type="text" id="customerName"
+            placeholder="Enter your full name" required>
+
+        <label for="mobile">Mobile Number</label>
+        <input type="tel" id="mobile"
+            placeholder="Enter 10 digit mobile number"
+            pattern="[0-9]{10}" maxlength="10" required>
+
+        <label for="functionType">Function Type</label>
+        <select id="functionType" required>
+            <option value="">Select Function</option>
+            <option>Wedding</option>
+            <option>Birthday</option>
+            <option>Engagement</option>
+            <option>Haldi</option>
+            <option>Mehendi</option>
+            <option>Other Functions</option>
+        </select>
+
+        <label for="duration">Rental Duration</label>
+        <select id="duration" required>
+            <option value="">Select Rental Duration</option>
+            <option>1 Day</option>
+            <option>2 Days</option>
+            <option>3 Days</option>
+            <option>4 Days</option>
+            <option>5 Days</option>
+            <option>Other / Custom Duration</option>
+        </select>
+
+        <label for="eventDate">Event Date</label>
+        <input type="date" id="eventDate" required>
+
+        <label for="eventLocation">Event Location</label>
+        <input type="text" id="eventLocation"
+            placeholder="Enter event location" required>
+
+        <label for="requirements">Additional Requirements</label>
+        <textarea id="requirements"
+            placeholder="Describe your decoration requirements"></textarea>
+
+        <button type="submit" class="submit-btn">
+            Send Booking Enquiry
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ABOUT US -->
+
+<section class="about" id="about">
+
+    <h2>About Shivkrupa Mandap & Decor</h2>
+
+    <p>
+        Shivkrupa Mandap & Decor provides decoration and rental
+        services for weddings, birthdays, engagements, Haldi,
+        Mehendi and other special occasions.
+
+        Our aim is to make every celebration beautiful,
+        memorable and special with attractive decoration
+        arrangements and quality service.
+    </p>
+
+</section>
+
+
+<!-- CUSTOMER REVIEWS -->
+
+<section class="reviews">
+
+    <h2>What Our Customers Say</h2>
+
+    <div class="review-container">
+
+        <div class="review-card">
+            <h3>shinde murli</h3>
+            <p>"Beautiful decoration and wonderful arrangements!"</p>
+            <span>★★★★★</span>
+        </div>
+
+        <div class="review-card">
+            <h3>jadhav pandurang</h3>
+            <p>"Very nice service and attractive decoration."</p>
+            <span>★★★★★</span>
+        </div>
+
+        <div class="review-card">
+            <h3>pawar angad</h3>
+            <p>"Made our special occasion more memorable."</p>
+            <span>★★★★★</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer id="contact">
+
+    <div class="footer-container">
+
+        <div>
+            <h2>Shivkrupa</h2>
+            <p>Mandap & Decor</p>
+            <p>Making Your Special Moments More Beautiful!</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#booking">Booking</a>
+        </div>
+
+        <div>
+            <h3>Contact Us</h3>
+            <p>Mobile: 9623684388</p>
+            <p>Email: ramswami117@gmail.com</p>
+            <p>Location: near nagoji naik chouk <br> front to hake kirana store <br> main road risangaon</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>© 2026 Shivkrupa Mandap & Decor. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
